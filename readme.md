@@ -79,13 +79,18 @@ Ex:
 	"jquery":  "^3.2.1",
 }
 ```
+
 3: Significa a versão maior da versão ou seja é a que controla atualizações significativas que podem ou não causar problemas no projeto.
+
 2: Significa a adicção de funcionalidades para versões compatíveis com as anteriores que não causa problemas em atualizações.
+
 1: Atualização de bugs e melhorias em performance.
 
 **^: Indica que ele atualize somente a minor e patch.**
 Ou seja se for instalado a versão @2.0.0 e no package.json estiver indicado na frente do pacote "^" o pacote instalará as ultimas versões de minor e patch. Ele nunca instalará uma versão acima do major.
+
 Ex:
+
 ```yaml
 "dependencies": {
 	"jquery":  "^3.0.0",
