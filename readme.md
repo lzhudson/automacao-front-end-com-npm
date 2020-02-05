@@ -71,7 +71,9 @@ MAJOR.MINOR.PATCH:
 **.major** -> alteração da estrutura do pacote com atualizações significativas. Quando você faz alterações incompatíveis da API.
 
 Referencias: [Site oficial sobre pacotes versões de pacotes do NPM](https://semver.org/)
+
 Ex:
+
 ```yaml
 "dependencies": {
 	"jquery":  "^3.2.1",
