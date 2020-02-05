@@ -65,8 +65,11 @@ Nos pacotes a 3 tipos de versões de pacotes:
 MAJOR.MINOR.PATCH:
 
 **.patch** -> quando você faz correções de erros compatíveis com versões anteriores. Como melhorias de bugs e performance.
+
 **.minor** -> quando você adiciona funcionalidade de uma maneira compatível com versões anteriores.
+
 **.major** -> alteração da estrutura do pacote com atualizações significativas. Quando você faz alterações incompatíveis da API.
+
 Referencias: [Site oficial sobre pacotes versões de pacotes do NPM](https://semver.org/)
 Ex:
 ```yaml
