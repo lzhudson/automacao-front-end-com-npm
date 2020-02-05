@@ -165,4 +165,4 @@ npm install uglifyjs
 cd node_modules/.bin/uglifyjs jquery.js -c -o jquery.min.
 ```  
 
-O comando acima vai até a pasta node_moduels, entra em seus arquivos binários e executa comandos da dependência a partir do arquivo de referência aos comandos .cmd do mesmo.
+O comando acima vai até a pasta node_modules, entra em seus arquivos binários e executa comandos da dependência a partir do arquivo de referência aos comandos .cmd.
