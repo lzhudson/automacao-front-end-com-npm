@@ -105,3 +105,22 @@ gulp.task('watch', watch);
 gulp.task('default', gulp.parallel('watch', 'browser-sync'));
 
 ```
+
+**Monitorando mais de um arquivo com watch e o browser-sync:**
+
+```javascript
+gulp.watch(['lista-de-arquivos-que-desejamos-monitorar']).on('change', browsersync.reload)
+```
+
+  
+
+A função acima recebe como parâmetro um array de lista de arquivos que desejamos monitorar, logo em seguida adicionamos uma função javascript que é .on(), que recebe o tipo de evento que é o change e em seguida realiza uma função de callback que é a browsersync.reload, que recarrega o browser.
+
+  
+
+Ex:
+```javascript
+gulp.watch(['*.html', '*.php']).on('change', browsersync.reload)
+```
+
+Na função acima estamos falando para o gulp, que quaisquer alterações feitas nos arquivos .html ou .php ele deve recarregar browser a partir da função browsersync.reload.
