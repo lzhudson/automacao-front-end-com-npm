@@ -1,0 +1,16 @@
+{
+  "name": "01-instalando-o-gulp",
+  "version": "1.0.0",
+  "description": "Temos que instalar a interface de linhas de comandos do gulp para podermos trabalharmos com o mesmo:\r ````properties\r npm install gulp-cli -g\r ````",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
