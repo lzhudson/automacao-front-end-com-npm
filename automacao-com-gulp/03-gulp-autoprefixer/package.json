@@ -1,0 +1,17 @@
+{
+  "name": "03-gulp-autoprefixer",
+  "version": "1.0.0",
+  "description": "Instalando o gulp-autoprefixer:\r É uma dependência que adiciona os prefixos em algumas propiedades para que haja constância nos estilos em todos os navegadores de acordo com algumas propiedades.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
