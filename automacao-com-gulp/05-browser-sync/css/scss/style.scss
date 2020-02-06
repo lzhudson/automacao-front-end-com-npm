@@ -1,0 +1,15 @@
+@import "header";
+$color-heading: #9E6;
+$color-border: 1px solid #333;
+@mixin sombra(){
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.4);
+}
+h1 {
+  @include sombra();
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: $color-heading;
+  border: $color-border;
+}
