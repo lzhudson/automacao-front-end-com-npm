@@ -624,6 +624,10 @@ Na função acima estamos falando para o gulp, que quaisquer alterações feitas
 ```properties
 npm install gulp-concat
 ```
+**Importando gulp-concat:**
+```javascript
+const concat = require('gulp-concat');
+```
 
 **Criando a primeira função com o gulp-concat:**
 ```javascript
