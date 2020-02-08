@@ -1,0 +1,10 @@
+h1 {
+  background: pink;
+  color: blue;
+  font-weight: bold;
+}
+
+body {
+  color: blue;
+  background-attachment: fixed;
+}
