@@ -21,7 +21,7 @@ Se estiver usando servidor externo como local by flywheel, xampp, wampp ou mamp,
 function browser() {
   browsersync.init({
     server: {
-      baseDir: "./"
+      proxy: 'sua-url-sem-https'
     }
   })
 }
